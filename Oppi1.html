@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="tyyli.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@300;400&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <main id="alku" class="container">
+    <nav class="navbar navbar-expand-sm navbar-custom fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#alku">
+          <img src="annos13.jpg" alt="Logo" style="width:40px;" class="rounded-pill">Risotto Reiska
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#alku">Etusivu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ravintola">Ravintola</a>
+            </li> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#risotot" role="button" data-bs-toggle="dropdown">Risotot</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#risotot">Merelliset</a></li>
+                <li><a class="dropdown-item" href="#haitari">Reiskan erikoiset</a></li>
+                <li><a class="dropdown-item" href="#videot">Kasvis</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#yhteydenotto">Ota yhteyttä</a>
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" >
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="poyta1.jpg" alt="poyta" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Meillä on ihanat pöydät</h3>
+        <p>Tunnelmassa tekisi mieli vaikka kosia</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="ravintola1.jpg" alt="ravintola" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Ravintola huokuu aitoutta</h3>
+        <p>Jos käy hyvä tuuri Risotto Reiska saattaa poiketa moikkaamaan</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="sienet.jpg" alt="sienet" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Ihanat sieni annokset</h3>
+        <p>Reiska tekee aina ruuasta vähän erilaista</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="suolainen5.jpg" alt="suolainen" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Myös pikkusuolaisia herkutteluun</h3>
+        <p>Ei taatusti kreikkalaista</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<div class="container" id="ravintola" style="padding-top:70px">    
+  <div class="row">
+  <div class="col-md-4"><img src="suolainen1.jpg"></div>
+  <div class="col-md-4"><h1>Tule nauttimaan!</h1> <p>Täällä alueen parhaat safkat</p>
+  <p>Auki:<br>ma-su 11-18.00<br>Pyhinä ei</p></div>
+  <div class="col-md-4"><img src="suolainen1.jpg"></div>
+  </div> 
+  </div>
+
+  <div class="card-group" id="risotot" style="padding-top:70px">
+    <div class="card">
+      <img src="suolainen1.jpg" class="card-img-top" alt="annos13.jpg">
+      <div class="card-body">
+        <h5 class="card-title">Salaattia</h5>
+        <p class="card-text">Kaikkee vihreetä ja muuta värikästä</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="suolainen5.jpg" class="card-img-top" alt="annos13.jpg">
+      <div class="card-body">
+        <h5 class="card-title">Risottoa</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="sienet.jpg" class="card-img-top" alt="annos13.jpg">
+      <div class="card-body">
+        <h5 class="card-title">Pastoja</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="ravintola1.jpg" class="card-img-top" alt="annos13.jpg">
+      <div class="card-body">
+        <h5 class="card-title">Pitsoja</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="accordion" style="padding-top:70px">
+    <div class="card" id="haitari">
+      <div class="card-header">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+          Kahvit
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse"  data-bs-parent="#accordion">
+        <div class="card-body">
+          <div class="d-flex flex-column">
+            <div class="p-2 bg-info">Americano</div>
+            <div class="p-2 bg-warning">Latte</div>
+            <div class="p-2 bg-primary">Mustana</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+          Oluet
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          <div class="row">
+            <div class="col">Lager<br><img src="ravintola1.jpg" class="card-img-top" alt="annos13.jpg"></div>
+            <div class="col">Ipa</div>
+            <div class="col">Stout<br><img src="ravintola1.jpg" class="card-img-top" alt="suolainen1.jpg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card" >
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+          Viinit
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Punainen<br>
+          Valkoinen
+        </div>
+      </div>
+    </div>  
+  </div>
+  
+  <ul class="nav nav-tabs" id="videot" style="padding-top:70px">
+    <li class="nav-item">
+      <a class="nav-link active" data-bs-toggle="tab" href="#home">Risotto</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu1">Pizza</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu2">Oluet</a>
+    </li>
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane container active" id="home">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/NKtR3KpS83w" title="Risotto" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="tab-pane container fade" id="menu1">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/Rj_vssRaZlQ" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="tab-pane container fade" id="menu2">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/AVV3UJCFnA4" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3" id="yhteydenotto" style="padding-top:70px">
+    <h2>Ota yhteyttä</h2>
+    <p>Avoimuus on meille tärkeää:</p>
+    
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Nimi</th>
+            <th>Tehtävä</th>
+            <th>Sähköposti</th>
+            <th>Puhelin</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maija Maijanen</td>
+            <td>Päällikkö</td>
+            <td>Maija.Maijanen@risottoreiska.fi</td>
+            <td>040 440 444</td>
+          </tr>
+          <tr>
+            <td>Erkki merkki</td>
+            <td>Mestari</td>
+            <td>erkkinen@risottoreiska.fi</td>
+            <td>040 440 444</td>
+          </tr>
+          <tr>
+            <td>Mallikas</td>
+            <td>Vastaava</td>
+            <td>mikko@risottoreiska.fi</td>
+            <td>040 440 444</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+    <form onsubmit="return false">
+      <h2>Palaute:</h2>
+      <label for="name" >Nimi:</label><br>
+      <input type="text" required placeholder="Risotto Risto" id="nimi"> <br>     
+      <label for="name">Sähköposti:</label><br>
+      <input type="email" required placeholder="esi@merk.ki" id="email"><br>
+      <label for="name">Puhelinnumero:</label><br>
+      <input type="tel" pattern="\+?[0-9 () \-]+" placeholder="123-45-678" id="puh"><br>
+      <label for="palaute">Viestisi esim. palaute, toiveita tai lisätietoa.</label><br>
+      <textarea id="palaute" name="palaute" rows="5" cols="50"></textarea><br>
+      <br>
+      <label for="name">Minkälainen oli kokemuksesi ravintolastamme:</label><br>
+      <input type="radio" id="loistava" name="arviointi" value="loistava">
+      <label for="loistava">Loistava</label><br>
+      <input type="radio" id="ihanok" name="arviointi" value="ihanok">
+      <label for="ihanok" >Ihan ok</label><br>
+      <input type="radio" id="negatiivinen" name="arviointi" value="negatiivinen">
+      <label for="negatiivinen">Negatiivinen</label><br>
+      <br>
+      <label for="name">Mitä haluaisit lisää?</label><br>
+      <input type="checkbox" id="kuvia" name="mitalisaa" value="kuvia">
+      <label for="kuvia"> kuvia</label><br>
+      <input type="checkbox" id="resepteja" name="mitalisaa" value="resepteja">
+      <label for="resepteja"> reseptejä</label><br>
+      <input type="checkbox" id="tietojaomistajasta" name="mitalisaa" value="tietojaomistajasta">
+      <label for="tietojaomistajasta"> tietoa omistajasta</label><br>
+      <input type="checkbox" id="Kuviaomistajasta" name="mitalisaa" value="kuviaomistajasta">
+      <label for="Kuviaomistajasta"> kuvia omistajasta</label><br><br>
+      <label for="parasta">Parasta paikassa oli:</label>
+      <select name="parasta" id="parasta">
+        <option value="Risotto" >Risotto</option>
+        <option value="Omistaja">Omistaja</option>
+        <option value="Juomat">Juomat</option>
+        <option value="alkupalat">Alkupalat</option>
+      </select>
+      <br><br>
+      <input type="submit" onclick="lomakkeenluku()" value="lähetä" >
+      <input type="reset" value="tyhjennä" >
+      <br><br> <br><br>
+    </form>
+    
+    <div id="tiedot">
+      
+    </div>
+
+
+    <script>
+      function lomakkeenluku(){
+        const nimi = document.getElementById("nimi").value;
+        const email = document.getElementById("email").value;
+        const puh = document.getElementById("puh").value;
+        const palaute = document.getElementById("palaute").value;
+        document.getElementById("tiedot").innerHTML = "<h3>Kiitos palautteesta "+nimi+ "</h3>";
+        document.getElementById("tiedot").innerHTML += "<br>Yhteystiedot: "+email+", puhelin "+puh;
+        document.getElementById("tiedot").innerHTML += "<br>Palautteesi: "+palaute;
+        
+        // määritellään muuttuja, jossa on jo hieman merkkijonotekstiä:
+        var muuttuja = "";
+        // haetaan radios-muuttujaan radiobuttonryhmä
+        var radios = document.getElementsByName('arviointi');
+        // lisää for-lause, jossa tutkit mikä vaihtoehto on valittuna
+        for (var i = 0, length = radios.length; i < length; i++) {
+        if (radios[i].checked) {
+        // mitä valitulle arvolle tehdään, esim. sijoita muuttujaan
+        arviointimuuttuja = muuttuja + radios[i].value;
+        // koska vain yksi radiobuttoni voidaan valita niin valitun löydettyä muita ei tarvi testata
+        break;
+        }
+        }
+
+        var monivalinnat = "";
+        // haetaan boxit-muuttujaan checkbox-ryhmä
+        var boxit = document.getElementsByName('mitalisaa');
+        // lisää for-lause, jossa tutkit mikä vaihtoehto on valittuna
+        for (var i = 0, length = boxit.length; i < length; i++) {
+        if (boxit[i].checked) {
+        // mitä valitulle arvolle tehdään, esim. sijoita muuttujaan
+        monivalinnat = monivalinnat +" "+ boxit[i].value;
+        }
+        }
+
+        var x = document.getElementById("parasta").selectedIndex;
+        var y = document.getElementById("parasta").options;
+        var parastavalinta= y[x].text
+
+        document.getElementById("tiedot").innerHTML += "<br>Arviosi sivuistamme: "+arviointimuuttuja;
+        document.getElementById("tiedot").innerHTML += "<br>Haluaisit sivulle lisää: "+monivalinnat;
+        document.getElementById("tiedot").innerHTML += "<br>Parasta mielestäsi oli: "+parastavalinta;
+      }
+    </script>
+  </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/* taustan väri */
+#demo  {margin-top:100px}
+.navbar-custom {
+    background-color: rgba(137,17,76,0.9)
+   }
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+color: rgba(241,135,187, 0.8);
+font-family: 'Shadows Into Light', cursive;
+font-size: large;
+} 
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(241,135,187, 0.8);
+    font-family: 'Bebas Neue', cursive;
+   }
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+color: #ffffff;
+font-family: 'Cairo', sans-serif;
+
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,102,255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px; }
+@media (max-width: 600px) {
+    .carousel-caption {
+    display: none;
+    }
+    }
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+            }
+        
+            .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        }
+#ravintola img {width:100%;
+                max-width:350px;
+                border-radius: 30px 0%;} 
+body {
+    background-color: lightblue;
+    position: relative;
+    }
+.nav-link.active {
+    color: white !important;
+    }
+#risotot  {margin-top:100px}
+       
+label.muoto {display:inline-block;
+    width:6em;
+    text-align:right;
+    vertical-align: top;}
+
+#tiedot  {
+    width: auto;
+    padding: 10px;
+    border: 5px solid pink;
+    margin: 3;
+}
